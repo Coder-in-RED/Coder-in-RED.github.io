@@ -94,3 +94,29 @@ height: 520px;
 visibility: visible;
 }
 }
+
+#legend{
+background: rgb(20,0,0);
+margin: auto;
+margin-top: 130px;
+padding: 15px;
+max-width: 200px;
+}
+
+#PinCase{
+font-size: 15px;
+text-align: center;
+color: white;
+font-weight: 300;
+font-family: "arial";
+}
+
+span{
+font-size: 24px;
+text-decoration: underline;
+color: rgb(255,0,0);
+}
+
+#normal{
+font-size: 15px;
+}
