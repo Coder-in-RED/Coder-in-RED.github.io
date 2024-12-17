@@ -77,11 +77,11 @@ ShellOfItIs.classList.add("hidden");
 GameShell.classList.add("game");
 GameShell.innerHTML = `
 <h1 id="QuizHeader"> Ergebnis </h1>
-<h2 id="question"> ${score}/10 Punkte hast du erzielt. Du kannst zurück zum Home Bildschirm oder es nochmal probieren </h2>`;
+<h2 id="question"> ${score}/10 Punkte hast du erzielt. Du kannst zurück zur Startseite oder es nochmal probieren </h2>`;
 
 GameB.innerHTML = ` 
 <div class="TheRating HyperButtonShell">
-<a class="HyperButton" href="../Proxi0/Web-0.html"> Zurück zur Startseite </a>
+<a class="HyperButton" href="index.html"> Zurück zur Startseite </a>
 </div>
 <div class="TheRating HyperButtonShell">
 <a class="HyperButton" href=""> Nochmal </a>
