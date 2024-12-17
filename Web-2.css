@@ -1,0 +1,77 @@
+body{
+background: rgb(255,240,240);;
+}
+
+#DivOfH2andP {
+border-radius: 20px 20px;
+max-width: 600px;
+min-height: 200px;
+background: rgb(200,0,36);
+text-shadow: 0 0 15px rgb(255,255,255);
+background: linear-gradient(190deg, rgba(0,0,0,1) 0%, rgba(184,0,33,1) 30%, rgba(200,0,36,1) 70%, rgba(0,0,0,1) 100%);
+margin: 40px 30px;
+margin-top: 80px;
+color: rgb(230,230,230);
+} 
+
+#QuizHeader{
+text-align: center;
+font-size: 32px;
+line-height: 0.1em;
+padding-top: 30px;
+}
+
+#QuizParagraph{
+font-size: 26px;
+text-align: center;
+padding: 10px;
+padding-bottom: 30px;
+}
+
+#ThoseButtons{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 50px;
+margin: 0 auto;
+border-radius: 10px 10px;
+background: rgb(200,0,36);
+background: linear-gradient(190deg, rgba(200,0,36,1) 15%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(200,0,36,1) 85%);
+}
+
+#ToGameButton{
+color: rgb(255,240,240);
+font-size: 22px;
+font-weight: bold;
+text-decoration: none;
+}
+
+#OuterShell{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#reminder{
+border-radius: 10px 10px;
+padding: 10px;
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(184,0,33,1) 30%, rgba(200,0,36,1) 70%, rgba(0,0,0,1) 100%);
+text-align: center;
+max-width: 500px;
+margin: 0 auto;
+}
+
+#InfoHeader{
+color: black;
+font-size: 30px;
+text-shadow: 0 0 15px rgb(255,255,255);
+}
+
+#InfoText{
+color: white;
+}
+
+#outerlayer{
+margin: 90px 60px;
+}
