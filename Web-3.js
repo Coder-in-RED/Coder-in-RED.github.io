@@ -37,9 +37,7 @@ start = true;
 ShellOfItIs.classList.remove("hidden");
 }
 
-else{
-Q.textContent = RealNumber + "Bitte wählen Sie einer der zwei Aussagen aus";
-}
+
 if(ContainsQuestion.length === 0){
 SubmitIt.textContent = "Ergebniss sehen";
 SubmitIt.id = "TheRatings";
